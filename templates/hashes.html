@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Hashes</title>
+</head>
+<body>
+<h1>Hashes for your word</h1></br>
+<table class="table table-bordered">
+    <tbody>
+        {% for nombre, valor in lista %}
+        <tr>
+            <th>{{ nombre }}</th>
+            <td>{{ valor }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
